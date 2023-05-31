@@ -4,6 +4,7 @@ This repository contains the solutions to the front-end development tasks assign
 
 ## Task 1
 
+
 Description: This task is about background images
 
 Folder: [Task 1](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task1/)
