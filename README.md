@@ -42,6 +42,22 @@ Folder: [Task 5](/task5/)
 
 Technologies Used: HTML, CSS
 
+## Task 6
+
+Description: This task is to write the pricing part of the page
+
+Folder: [Task 6](/task6/)
+
+Technologies Used: HTML, CSS
+
+## Task 7
+
+Description: This task is a small part of the Irshad store web page
+
+Folder: [Task 7](/task7/)
+
+Technologies Used: HTML, CSS
+
 
 
 
