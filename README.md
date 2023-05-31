@@ -2,16 +2,6 @@
 
 This repository contains the solutions to the front-end development tasks assigned during the Baku Development Center course. Each task is organized into a separate folder along with the necessary files and resources.
 
-## Table of Contents
-
-- [Task 1](#task-1)
-- [Task 2](#task-2)
-- [Task 3](#task-3)
-- [Task 4](#task-4)
-- [Task 5](#task-5)
-- [Task 6](#task-6)
-- [Task 7](#task-7)
-
 ## Task 1
 
 Description: This task is about background images
