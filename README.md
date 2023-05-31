@@ -6,7 +6,7 @@ This repository contains the solutions to the front-end development tasks assign
 
 Description: This task is about background images
 
-Folder: [Task 2](/task1/)
+Folder: [Task 1](/task1/)
 
 Technologies Used: HTML, CSS
 
@@ -26,8 +26,21 @@ Folder: [Task 3](/task3/)
 
 Technologies Used: HTML, CSS
 
+## Task 4
 
+Description: This assignment is part of the [Rent Blog](https://solutions.rent.com/blog/)
 
+Folder: [Task 4](/task4/)
+
+Technologies Used: HTML, CSS
+
+## Task 5
+
+Description: This task consists of two parts. The topic is login and register pages. References: [Rent Login](https://renthq.rent.com/login)
+
+Folder: [Task 5](/task5/)
+
+Technologies Used: HTML, CSS
 
 
 
