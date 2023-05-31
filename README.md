@@ -6,7 +6,7 @@ This repository contains the solutions to the front-end development tasks assign
 
 Description: This task is about background images
 
-Folder: [Task 1](/task1/)
+Folder: [Task 1](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task1/)
 
 Technologies Used: HTML, CSS
 
@@ -14,7 +14,7 @@ Technologies Used: HTML, CSS
 
 Description: This task is about tables
 
-Folder: [Task 2](/task2/)
+Folder: [Task 2](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task2/)
 
 Technologies Used: HTML, CSS
 
@@ -22,7 +22,7 @@ Technologies Used: HTML, CSS
 
 Description: This assignment is part of the [Rent Marketplace](https://solutions.rent.com/rentmarketplace/)
 
-Folder: [Task 3](/task3/)
+Folder: [Task 3](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task3/)
 
 Technologies Used: HTML, CSS
 
@@ -30,7 +30,7 @@ Technologies Used: HTML, CSS
 
 Description: This assignment is part of the [Rent Blog](https://solutions.rent.com/blog/)
 
-Folder: [Task 4](/task4/)
+Folder: [Task 4](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task4/)
 
 Technologies Used: HTML, CSS
 
@@ -38,7 +38,7 @@ Technologies Used: HTML, CSS
 
 Description: This task consists of two parts. The topic is login and register pages. References: [Rent Login](https://renthq.rent.com/login)
 
-Folder: [Task 5](/task5/)
+Folder: [Task 5](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task5/)
 
 Technologies Used: HTML, CSS
 
@@ -46,7 +46,7 @@ Technologies Used: HTML, CSS
 
 Description: This task is to write the pricing part of the page
 
-Folder: [Task 6](/task6/)
+Folder: [Task 6](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task6/)
 
 Technologies Used: HTML, CSS
 
@@ -54,7 +54,7 @@ Technologies Used: HTML, CSS
 
 Description: This task is a small part of the Irshad store web page
 
-Folder: [Task 7](/task7/)
+Folder: [Task 7](https://github.com/kazimovzaman2/BDC-Tasks/tree/main/task7/)
 
 Technologies Used: HTML, CSS
 
