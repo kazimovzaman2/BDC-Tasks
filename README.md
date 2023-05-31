@@ -6,7 +6,7 @@ This repository contains the solutions to the front-end development tasks assign
 
 Description: This task is about background images
 
-Folder: [task1]
+Folder: [task1](/task1/)
 
 ### Usage
 
