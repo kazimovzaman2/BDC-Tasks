@@ -6,61 +6,31 @@ This repository contains the solutions to the front-end development tasks assign
 
 Description: This task is about background images
 
-Folder: [task1](/task1/)
+Folder: [Task 2](/task1/)
 
-### Usage
-
-1. Step 1 of the usage instructions for Task 1.
-2. Step 2 of the usage instructions for Task 1.
-3. Step 3 of the usage instructions for Task 1.
+Technologies Used: HTML, CSS
 
 ## Task 2
 
-Description: [Brief description of the task]
+Description: This task is about tables
 
-Folder: [Path to the task folder]
+Folder: [Task 2](/task2/)
 
-### Usage
-
-1. Step 1 of the usage instructions for Task 2.
-2. Step 2 of the usage instructions for Task 2.
-3. Step 3 of the usage instructions for Task 2.
+Technologies Used: HTML, CSS
 
 ## Task 3
 
-Description: [Brief description of the task]
+Description: This assignment is part of the [Rent Marketplace](https://solutions.rent.com/rentmarketplace/)
 
-Folder: [Path to the task folder]
+Folder: [Task 3](/task3/)
 
-### Usage
+Technologies Used: HTML, CSS
 
-1. Step 1 of the usage instructions for Task 3.
-2. Step 2 of the usage instructions for Task 3.
-3. Step 3 of the usage instructions for Task 3.
 
-## Task 4
 
-Description: [Brief description of the task]
 
-Folder: [Path to the task folder]
 
-### Usage
 
-1. Step 1 of the usage instructions for Task 4.
-2. Step 2 of the usage instructions for Task 4.
-3. Step 3 of the usage instructions for Task 4.
-
-## Task 5
-
-Description: [Brief description of the task]
-
-Folder: [Path to the task folder]
-
-### Usage
-
-1. Step 1 of the usage instructions for Task 5.
-2. Step 2 of the usage instructions for Task 5.
-3. Step 3 of the usage instructions for Task 5.
 
 ## License
 
