@@ -1,0 +1,129 @@
+@use "../utils/mixin" as *;
+@use "../utils/variable" as *;
+@use "../utils/extend" as *;
+
+header {
+  .top {
+    @media (max-width: 1000px) {
+      display: none !important;
+    }
+
+    &__left {
+      @include Flexible($justify: flex-start, $align: center, $gap: 25px);
+
+      @extend %nav_top;
+    }
+
+    &__right {
+      @include Flexible($justify: flex-end, $align: center, $gap: 25px);
+
+      @extend %nav_top;
+
+      li {
+        &:first-child a {
+          color: #099d0d;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    background-color: transparent;
+
+    &__logo a svg {
+      &:hover {
+        fill: red;
+      }
+    }
+
+    &__menu {
+      @include Flexible($justify: center, $align: center);
+
+      @media (max-width: 992px) {
+        display: none !important;
+      }
+
+      button {
+        background-color: transparent;
+        border: none;
+        height: 80px;
+        width: 100%;
+        @include Flexible(
+          $justify: center,
+          $align: center,
+          $direction: row,
+          $gap: 10px
+        );
+
+        p {
+          font-family: $default_font_family;
+          font-size: 14px;
+          font-weight: 500;
+          color: #282828;
+        }
+      }
+    }
+
+    .form-group {
+      position: relative;
+
+      @media (max-width: 768px) {
+        display: none !important;
+      }
+
+      input {
+        border: 1px solid #d8d8d8;
+        font-family: $default_font_family;
+        border-radius: 21px;
+        padding: 11px 2px 11px 15px;
+        height: 45px;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        outline: none;
+      }
+
+      button {
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        right: 10px;
+        padding-left: 10px;
+        border-left: 1px solid #d8d8d8;
+        top: 0;
+        height: 45px;
+        cursor: pointer;
+      }
+    }
+
+    .login {
+      @include Flexible($justify: flex-end, $align: center, $gap: 25px);
+
+      @media (max-width: 768px) {
+        display: none !important;
+      }
+
+      li {
+        @include Flexible($align: center, $gap: 10px);
+        height: 80px;
+
+        a {
+          @include Flexible($align: center, $gap: 5px);
+          text-decoration: none;
+
+          span {
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1;
+            font-family: $default_font_family;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+footer {
+  .container {
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+    @include Flexible(
+      $justify: space-between,
+      $align: flex-start,
+      $direction: row,
+      $wrap: wrap,
+      $gap: 90px
+    );
+
+    @media (max-width: 1200px) {
+      @include Flexible(
+        $justify: space-between,
+        $align: center,
+        $direction: column,
+        $wrap: wrap,
+        $gap: 90px
+      );
+    }
+
+    .left {
+      @include Flexible(
+        $justify: flex-start,
+        $align: flex-start,
+        $direction: row,
+        $wrap: wrap,
+        $gap: 90px
+      );
+
+      width: 84%;
+
+      @media (max-width: 1200px) {
+        @include Flexible(
+          $justify: center,
+          $align: flex-start,
+          $direction: row,
+          $wrap: wrap,
+          $gap: 30px
+        );
+
+        width: 100%;
+      }
+
+      @media (max-width: 780px) {
+        @include Flexible(
+          $justify: center,
+          $align: center,
+          $direction: column,
+          $wrap: wrap,
+          $gap: 30px
+        );
+      }
+
+      .card {
+        width: calc(100% / 4 - 75px);
+
+        @media (max-width: 1200px) {
+          width: calc(100% / 4 - 10px);
+        }
+
+        @media (max-width: 780) {
+          width: calc(100%) !important;
+        }
+
+        h3 {
+          color: $black-100;
+          font-size: 18px;
+          font-family: $default_font_family;
+          font-weight: 600;
+          line-height: 22px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          li {
+            font-size: 14px;
+            font-family: $default_font_family;
+            line-height: 22px;
+            margin-bottom: 10px;
+
+            a {
+              text-decoration: none;
+              color: $black-60;
+            }
+          }
+        }
+
+        .left_bottom {
+          margin-top: 60px;
+          a {
+            margin-right: 16px;
+          }
+        }
+      }
+    }
+
+    .right {
+      .icons {
+        @include Flexible(
+          $justify: right,
+          $align: flex-start,
+          $direction: row,
+          $gap: 11px
+        );
+
+        color: $black-100;
+        text-align: center;
+        font-size: 17px;
+        font-family: $default_font_family;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 1px;
+
+        button {
+          @extend %button;
+        }
+      }
+    }
+  }
+}
