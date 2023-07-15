@@ -1,0 +1,7 @@
+1. Woking hours section - cards does not in the same size. Fix this problem after all done
+2. SVG error on LAB section
+3. Stable height in last section's input and button
+4. Footer Recent Posts image fixed
+
+5. In navbar there is bug in dropdown menu.
+6. In blog section, there is bug in the 3 dot spans. After hover it, it should be go to the right side.

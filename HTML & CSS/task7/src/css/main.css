@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+/* Header Section*/
+
+.container header {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+.container header a {
+  text-decoration: none;
+  color: #232d40;
+  margin-right: 10px;
+}
+.container header a:last-child {
+  text-decoration: none;
+  color: #232d40;
+  opacity: 0.3;
+}
+
+/* Cards */
+
+.container .cards {
+  width: 100%;
+  border: 1px solid #e6e8ed;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+/* Card Item*/
+
+.container .cards .card_item {
+  display: inline-block;
+  width: calc(100% / 4);
+  border: 1px solid #e6e8ed;
+  float: left;
+  padding: 24px 24px 28px 24px;
+  overflow: hidden;
+}
+
+.container .cards .card_item:nth-child(2) .card_info {
+  margin-bottom: 70px;
+}
+
+.container .cards .card_item:nth-child(3) .card_info {
+  /* Maybe bug section */
+  margin-bottom: 70px;
+}
+
+.container .cards .card_item:nth-child(4) .card_info {
+  margin-bottom: 56px;
+}
+
+.container .cards .card_item .card_icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.container .cards .card_item .card_icons a {
+  font-size: 20px;
+  opacity: 0.3;
+  text-decoration: none;
+  color: #232d40;
+}
+
+.container .cards .card_item .card_icons a:hover {
+  opacity: 1;
+  color: #ff0000;
+  transition: 0.3s;
+}
+
+.container .cards .card_item .card_icons a:first-child {
+  margin-right: 20px;
+}
+.container .cards .card_item .card_icons a:first-child:hover {
+  color: #ffa500;
+}
+
+.container .cards .card_item .card_img {
+  height: 188px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container .cards .card_item .card_img > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container .cards .card_item .card_detail {
+  margin-top: 10px;
+}
+.container .cards .card_item .card_detail a {
+  text-decoration: none;
+}
+
+.container .cards .card_item .card_detail p {
+  color: #95979c;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.container .cards .card_item .card_detail .detail_link {
+  color: #232d40;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.container .cards .card_item .card_detail .block-icon {
+  display: block;
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.container .cards .card_item .card_detail .card_star {
+  margin-bottom: 16px;
+  font-size: 18px;
+
+  color: #95979c;
+  line-height: 24px;
+}
+
+.container .cards .card_item .card_detail .card_star a {
+  color: #fda92b;
+}
+
+.container .cards .card_item .card_detail .card_star a:last-child {
+  color: #898c91;
+  font-size: 16px;
+  margin-left: 13px;
+}
+
+.container .cards .card_item .card_info {
+  margin-bottom: 32px;
+}
+
+.container .cards .card_item .card_info .card_info {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+.container .cards .card_item .card_info .orange {
+  color: #f6861f;
+}
+
+.container .cards .card_item .card_info .blue {
+  color: #3192ec;
+}
+
+.container .cards .card_item .card_info .purple {
+  color: #1743df;
+  background: rgba(23, 66, 223, 0.07);
+  border: none;
+}
+
+.container .cards .card_item .card_footer {
+  margin-top: 32px;
+}
+
+.container .cards .card_item .card_footer .price {
+  margin-bottom: 16px;
+}
+
+.container .cards .card_item .card_footer .price .left {
+  display: inline-block;
+}
+
+.container .cards .card_item .card_footer .price .left .old {
+  color: #95979c;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-bottom: 2px;
+  text-decoration: line-through;
+}
+
+.container .cards .card_item .card_footer .price .left .new {
+  color: #232d40;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.container .cards .card_item .card_footer .price .right {
+  padding: 12px;
+  display: inline-block;
+  background: #fafafc;
+  border-radius: 6px;
+  margin-left: 50px;
+}
+
+.container .cards .card_item .card_footer .price .right .taksit_list label {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  display: inline-block;
+}
+
+.container .cards .card_item .card_footer .price .right .taksit_price {
+  font-size: 15px;
+  line-height: 24px;
+  color: #232d40;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.container .cards .card_item .card_footer .shop_btn {
+  color: #fff;
+  background: #40b659;
+  display: inline-block;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid currentColor;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 11px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container .cards .card_item .card_footer .shop_btn:hover {
+  background-color: #fff;
+  color: #40b659;
+  transition: 0.3s;
+}

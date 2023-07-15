@@ -1,0 +1,113 @@
+/* *************  ************* */
+/* All Elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* *************  ************* */
+
+/* Heading */
+
+.all-elements {
+    display: block;
+    margin: auto 40px;
+    padding: 105px 100px 120px 100px;
+}
+
+.news-title h2 {
+    font-size: 56px;
+    cursor: context-menu;
+}
+
+
+/* *************  ************* */
+
+/* Image Section */
+
+.news-items-img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.item {
+    width: 49%;
+    display: inline-block;
+}
+
+.item .image-item {
+    width: 100%;
+    height: 100%;
+    max-height: 309px;
+    overflow: hidden;
+}
+
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.image-item img:hover {
+    opacity: 0.5;
+    transition: .6s ease;
+}
+
+
+.right-item {
+    margin-left: 14px;
+}
+
+
+
+/* *************  ************* */
+
+/* Sources Section */
+
+
+.sources {
+    margin: 20px 0 28px;
+}
+
+.sources div {
+    display: inline-block;
+    padding: 10px 12px;
+    background: #E7EBFF;
+    border-radius: 4px;
+    text-align: center;
+    color: #4561EC;
+    font-weight: bold;
+}
+
+
+.sources .second, .third {
+    margin-left: 8px;
+}
+
+
+
+/* *************  ************* */
+
+/* Paragraph Section */
+
+.item .item-text {
+    font-size: 32px;
+    line-height: 110%;
+    color: #000;
+    font-weight: bold;
+}
+
+.item .item-text:hover {
+    color: #4561EC;
+    transition: .3s ease;
+}

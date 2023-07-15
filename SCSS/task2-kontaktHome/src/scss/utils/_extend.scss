@@ -1,0 +1,38 @@
+@use "../utils/variable" as *;
+
+%tags {
+  cursor: default;
+  border: 1px solid #9c3;
+  background: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 2px;
+
+  p {
+    color: #9c3;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 1px 6px;
+  }
+}
+
+%nav_top {
+  li {
+    font-family: $default_font_family;
+
+    a {
+      font-size: 12px;
+      font-weight: 500;
+      text-decoration: none;
+      line-height: 3;
+      color: #777;
+      display: flex;
+      align-items: center;
+      transition: 0.5s;
+
+      &:hover {
+        color: #ff003c;
+      }
+    }
+  }
+}

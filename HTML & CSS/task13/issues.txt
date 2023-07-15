@@ -1,0 +1,2 @@
+1. In first cards if I add more word to second card its heihgt increase than the others
+3. Why css take 1280px if in 798 not hase same property
